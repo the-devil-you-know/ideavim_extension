@@ -37,7 +37,7 @@ class MacInputSourceSwitcher : InputSourceSwitcher {
 
     companion object {
         const val KEY_LAYOUT_US = "com.apple.keylayout.US"
-        private const val KEY_LAYOUT_ABC = "com.apple.keylayout.ABC"
+        private const val KEY_LAYOUT_ABC = "com.apple.keylayout.Colemak"
         var ENGLISH_INPUT_SOURCE = KEY_LAYOUT_ABC
     }
 }
