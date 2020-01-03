@@ -14,7 +14,11 @@ interface WinNative : User32 {
     fun GetKeyboardLayout(pid: WinDef.DWORD): WinNT.HANDLE
 
     companion object {
-        val INSTANCE = Native.loadLibrary("user32", WinNative::class.java, W32APIOptions.DEFAULT_OPTIONS) as WinNative
+        val INSTANCE = Native.loadLibrary(
+            "user32",
+            WinNative::class.java,
+            W32APIOptions.DEFAULT_OPTIONS
+        ) as WinNative
     }
 
 }
