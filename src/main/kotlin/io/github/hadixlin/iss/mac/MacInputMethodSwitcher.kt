@@ -38,7 +38,7 @@ class MacInputMethodSwitcher : InputMethodSwitcher {
 
     companion object {
         private const val KEY_LAYOUT_US = "com.apple.keylayout.US"
-        private const val KEY_LAYOUT_ABC = "com.apple.keylayout.ABC"
+        private const val KEY_LAYOUT_ABC = "com.apple.keylayout.Colemak"
         private var ENGLISH_INPUT_SOURCE = KEY_LAYOUT_ABC
     }
 }
